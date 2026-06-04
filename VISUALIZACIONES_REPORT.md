@@ -1,6 +1,6 @@
 # 📊 Informe de Visualizaciones - Proyecto Lechugas
 
-## 🎯 Descripción General
+##  Descripción General
 
 Este documento describe las **6 gráficas profesionales** generadas automáticamente por el script `generate_visualizations.py` para analizar el crecimiento de lechugas bajo diferentes condiciones ambientales.
 
@@ -8,7 +8,7 @@ Este documento describe las **6 gráficas profesionales** generadas automáticam
 
 ## 📈 Gráficas Generadas
 
-### 1️⃣ Temperatura vs Crecimiento (Scatter Plot)
+### 1️ Temperatura vs Crecimiento (Scatter Plot)
 
 **Archivo:** `01_temperatura_vs_crecimiento.png`
 
@@ -36,7 +36,7 @@ HALLAZGO CLAVE: Correlación negativa fuerte (-0.512)
 
 ---
 
-### 2️⃣ pH vs Crecimiento (Scatter con Zona Ideal)
+### 2️ pH vs Crecimiento (Scatter con Zona Ideal)
 
 **Archivo:** `02_ph_vs_crecimiento.png`
 
@@ -62,7 +62,7 @@ HALLAZGO CLAVE: Correlación débil (0.087)
 
 ---
 
-### 3️⃣ Matriz de Humedad-Temperatura (Heatmap)
+### 3️ Matriz de Humedad-Temperatura (Heatmap)
 
 **Archivo:** `03_humedad_temperatura_heatmap.png`
 
@@ -94,7 +94,7 @@ Punto crítico:    Temp + Humedad juntas crean estrés
 
 ---
 
-### 4️⃣ TDS/Nutrientes vs Crecimiento (Scatter Plot)
+### 4️ TDS/Nutrientes vs Crecimiento (Scatter Plot)
 
 **Archivo:** `04_tds_vs_crecimiento.png`
 
@@ -119,7 +119,7 @@ HALLAZGO CLAVE: Correlación muy débil (-0.031)
 
 ---
 
-### 5️⃣ Distribución por Rango de Temperatura (Boxplot)
+### 5️ Distribución por Rango de Temperatura (Boxplot)
 
 **Archivo:** `05_distribucion_temperatura.png`
 
@@ -155,7 +155,7 @@ ANÁLISIS DETALLADO POR RANGO:
 
 ---
 
-### 6️⃣ Matriz de Correlación (Heatmap)
+### 6️ Matriz de Correlación (Heatmap)
 
 **Archivo:** `06_matriz_correlacion.png`
 
@@ -169,14 +169,14 @@ ANÁLISIS DETALLADO POR RANGO:
 CON CRECIMIENTO (dias_crecimiento):
 
 FUERTE NEGATIVA:
-  Temperatura:     -0.512  ⚠️ Factor limitante principal
+  Temperatura:     -0.512   Factor limitante principal
 
 MODERADA POSITIVA:
-  Humedad:         +0.284  ⚡ Factor secundario
+  Humedad:         +0.284   Factor secundario
 
 DÉBIL:
-  pH:              +0.087  ℹ️  Poco relevante
-  TDS:             -0.031  ℹ️  Negligible
+  pH:              +0.087    Poco relevante
+  TDS:             -0.031    Negligible
 
 ENTRE VARIABLES:
   Temp-Humedad:    -0.245  (débil negativa)
@@ -195,7 +195,7 @@ CONCLUSIÓN: Estructura de Factores
 
 ---
 
-## 📊 Estadísticas Globales
+##  Estadísticas Globales
 
 ```
 DATASET COMPLETO (990 registros, 22 plantas):
@@ -229,7 +229,7 @@ Nutrientes (TDS/PPM):
 
 ---
 
-## 🎯 Conclusiones Empresariales
+##  Conclusiones Empresariales
 
 ### Ranking de Importancia de Factores
 
@@ -261,7 +261,7 @@ Nutrientes (TDS/PPM):
 
 ---
 
-## 💰 Recomendaciones ROI
+## Recomendaciones ROI
 
 ### Inversiones Prioritarias
 
@@ -284,7 +284,7 @@ IMPACTO BAJO (Optimización):
 
 ---
 
-## 📋 Checklist de Implementación
+## Checklist de Implementación
 
 - [ ] Revisar todas las 6 gráficas
 - [ ] Validar correlaciones con experto agronómico
@@ -297,7 +297,7 @@ IMPACTO BAJO (Optimización):
 
 ---
 
-## 📞 Próximas Acciones
+##  Próximas Acciones
 
 1. **Validación de Datos:** Verificar que los 990 registros representan ciclos completos
 2. **Análisis Temporal:** Incluir series de tiempo para detectar tendencias
